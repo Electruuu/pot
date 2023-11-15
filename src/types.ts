@@ -1,4 +1,3 @@
-type Component = {
-    name: string;
-    code: Function;
-}
+import DrawComponent from "./components/DrawComponent"
+
+export type Component = DrawComponent
